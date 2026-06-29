@@ -11,6 +11,8 @@ REPORT_DIR = BASE_DIR / "reports"
 # File paths
 RAW_DATA_PATH = DATA_DIR / "raw" / "customer_churn_raw.csv"
 CLEAN_DATA_PATH = DATA_DIR / "processed" / "customer_churn_clean.csv"
+SAMPLE_INPUT_PATH = DATA_DIR / "sample" / "sample_input.csv"
+SAMPLE_OUTPUT_PATH = DATA_DIR / "sample" / "sample_output.csv"
 MODEL_PATH = MODEL_DIR / "churn_model.pkl"
 
 # App settings
